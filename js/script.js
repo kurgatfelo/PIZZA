@@ -15,7 +15,7 @@ $(document).ready(function () {
   var large = new Size("large", 1500);
 
   //crust
-   {
+  function PizaCrust(crust, price) {
     this.crust = crust;
     this.price = price;
   }
@@ -36,7 +36,7 @@ $(document).ready(function () {
   let deliveryFee = 500;
 
 
-  $("#radio_bn").click(function () {
+  {
     var radioValue = $("input[name='psize']:checked").val();
     if (radioValue == "large") {
       var pricePerSize = large.price;
