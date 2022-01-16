@@ -1,4 +1,4 @@
-$(document).ready(function () {
+ {
   function Pizza(Size, pizzaCrust, pizzaToppings, PizzaNumber) {
     this.pizzaSize = pizzaSize;
     this.pizzaCrust = pizzaCrust;
