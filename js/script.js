@@ -36,7 +36,7 @@ $(document).ready(function () {
   let deliveryFee = 500;
 
 
-  {
+  $("#radio_bn").click(function () {
     var radioValue = $("input[name='psize']:checked").val();
     if (radioValue == "large") {
       var pricePerSize = large.price;
@@ -110,7 +110,7 @@ $(document).ready(function () {
     var totalAmount = function () {
       return (pricePerSize + pricePerToppings + pricePerCrust) * pizzaNumber
     };
-    totalAmount();
+   
     var totalAmount1 = totalAmount()
     // alert(totalAmount1)
     $(".size1").append(radioValue + "</br>");
