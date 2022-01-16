@@ -6,7 +6,7 @@ $(document).ready(function () {
     this.PizzaNumber = PizzaNumber;
   }
   //size
-   {
+  function Size(size, price) {
     this.size = size;
     this.price = price;
   }
@@ -15,7 +15,7 @@ $(document).ready(function () {
   var large = new Size("large", 1500);
 
   //crust
-  function PizaCrust(crust, price) {
+   {
     this.crust = crust;
     this.price = price;
   }
