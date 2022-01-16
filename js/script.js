@@ -110,7 +110,7 @@ $(document).ready(function () {
     var totalAmount = function () {
       return (pricePerSize + pricePerToppings + pricePerCrust) * pizzaNumber
     };
-   
+    totalAmount();
     var totalAmount1 = totalAmount()
     // alert(totalAmount1)
     $(".size1").append(radioValue + "</br>");
