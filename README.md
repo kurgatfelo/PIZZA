@@ -1,7 +1,7 @@
 # PIZZA INN
 ![Website image](https://github.com/kurgatfelo/PIZZA/blob/master/images/Screenshot%20from%202022-01-16%2020-50-10.png)
-## This is PIZZA INN WEBSITE
-## By FELIX KIBET KURGAT*
+## PIZZA INN WEBSITE
+## By FELIX KIBET KURGAT
 ## DESCRIPTION
 ## It describes about what PIZZA INN OFFERS;
 	*It describe variety of pizzas
