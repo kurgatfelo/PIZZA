@@ -89,7 +89,7 @@ $(document).ready(function () {
       //alert(pricePerToppings)
     } else if (selectedtoppings == "tomato") {
       var pricePerToppings = Tomato.price;
-      alert(pricePerToppings)
+      //alert(pricePerToppings)
       //return pricePerToppings;
       //alert(pricePerToppings)
     } else if (selectedtoppings == "freshgarlic") {
@@ -132,9 +132,11 @@ $(document).ready(function () {
     }
     $("#btn2").click(function(){
       var totalSubmit =totalAmount
-      alert("Thankyou your total cost is:" + ""+ totalSubmit())
+      var uText= $("#userText").val()
+      // alert(uText)
+      alert("Thankyou the order shall be delivered to:" + "" + uText +" Your total cost is:" + ""+ totalSubmit())
     })
-    return totalAmount();
+    //return totalAmount();
     //
     //  $(".your_location").show( slow, swing)
   });
