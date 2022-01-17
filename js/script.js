@@ -52,7 +52,7 @@ $(document).ready(function () {
       //return pricePerSize;
       //alert(pricePerSize)
     } else {
-      //alert("sellect your pizza size");
+    alert("sellect your pizza size");
     }
 
     //crust
@@ -112,6 +112,7 @@ $(document).ready(function () {
     };
     totalAmount();
     var totalAmount1 = totalAmount()
+    
     // alert(totalAmount1)
     $(".size1").append(radioValue + "</br>");
     $(".type").append(selectedcrusttype + "</br>");
@@ -129,6 +130,11 @@ $(document).ready(function () {
     else {
       alert("select your delivery mode")
     }
+    $("#btn2").click(function(){
+      var totalSubmit =totalAmount
+      alert("Thankyou your total cost is:" + ""+ totalSubmit())
+    })
+    return totalAmount();
     //
     //  $(".your_location").show( slow, swing)
   });
